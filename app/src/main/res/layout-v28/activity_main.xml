@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/insta1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="232dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="32dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
+
+    <TextView
+        android:id="@+id/inst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="682dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/welcome_to_tara_accessories_galore1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="430dp"
+        android:autofillHints=""
+        android:backgroundTint="#100F0F"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/enter_instagram_id"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#160404"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="363dp"
+        android:backgroundTint="#91453F3F"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="3577dp"
+        android:layout_height="5570dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="507dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/taralogo" />
+
+    <Button
+
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="#91453F3F"
+        android:text="@string/instagram"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="698dp"
+        android:layout_marginEnd="132dp"
+
+        android:text="tara.accessories_galore"
+        android:textColor="#A7453A3A"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
