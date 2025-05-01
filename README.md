@@ -27,7 +27,9 @@ Animations are stored in the assets folder and used with the LottieAnimationView
 
 
 📷 Screenshots
-![WhatsApp Image 2025-05-01 at 21 05 25_ece125bf](https://github.com/user-attachments/assets/d3208c2d-d807-4739-bcad-60ab023aba88)
+
+![WhatsApp Image 2025-05-01 at 21 10 25_d63c2924](https://github.com/user-attachments/assets/0bd46fca-cb8a-4413-a6b5-b09cf4dbec63)
+
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
